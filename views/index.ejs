@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+  <!-- Bootstrap core CSS -->
+  <link href="/libs/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Material Design Bootstrap -->
+  <link href="/libs/css/mdb.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <title>Portfolio</title>
+</head>
+<style>
+  .logoImg {
+    width: 100px;
+    height: 100px;
+  }
+</style>
+<!-- Social Icon  -->
+<!-- <ul class="navbar-nav nav-flex-icons">
+      <li class="nav-item">
+        <a class="nav-link"><i class="fab fa-facebook-f light-green-text-2"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"><i class="fab fa-twitter light-green-text-2"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"><i class="fab fa-instagram light-green-text-2"></i></a>
+      </li>
+    </ul> -->
+
+<body>
+  <!-- =========   HEADER __ START   =========  -->
+  <header>
+    <div id="particle"></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logoImg" src="/images/LogoPNG.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto smooth-scroll">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Главный <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about" data-offset="100">Обо мне</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills" data-offset="100">Навыки</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works" data-offset="100">Портфолио</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" data-offset="100">Контакты</a>
+            </li>
+            <li class="nav-item nav__item-icons">
+              <a class="nav-link" href="/NewREZUME.pdf" download>
+                Скачать PDF
+                <i class="fas fa-download"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header__titlels">
+      <div class="container">
+        <div class="row jus">
+          <div class="col-lg-7 col-md-6 d-flex">
+            <div class="header__text">
+              <h1>
+                Привет всем если что я <span>FullSctack</span> Программист
+                <i class="far fa-smile-wink"></i>
+              </h1>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 text-center">
+            <img src="/images/About2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- =========   HEADER __ END   =========  -->
+
+  <!-- =========   about __ START   =========  -->
+  <section class="about">
+    <div class="container">
+      <h2>Обо мне</h2>
+      <div class="row about__row-kect">
+        <div class="col-lg-3 about__row">
+          <div class="about_text">
+            <div class="about__text-1">
+              <h3>Данные</h3>
+              <ul class="list-group">
+                <li class="list-group-item"><span>Имя</span> : Азизбек</li>
+                <li class="list-group-item">
+                  <span>Родился</span> : Узбекистан
+                </li>
+                <li class="list-group-item"><span>Возраст</span> : 26</li>
+              </ul>
+            </div>
+            <div class="about__text-1">
+              <h3>Хобби</h3>
+              <ul class="list-group">
+                <li class="list-group-item">Занимаюсь спортом</li>
+                <li class="list-group-item">Люблю читать книги</li>
+                <li class="list-group-item">Развиваю себя в своём сфере</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="about__me">
+            <div class="sliderHeader">
+              <div class="sliderHeader__images">
+                <img class="sliderHeader__img sliderHeader__img-active" src="/images/slid1.png" alt="" />
+                <img class="sliderHeader__img" src="/images/slid2.png" alt="" />
+                <img class="sliderHeader__img" src="/images/slid3.png" alt="" />
+                <img class="sliderHeader__img" src="/images/slid4.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="about_text about_text-right">
+            <div class="about__text-1">
+              <h3>Где работал</h3>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  В школе <span>"PROWEB"</span> ( 2 Года )
+                </li>
+                <li class="list-group-item">
+                  <span>It Reactor</span> (Работаю)
+                </li>
+                <li class="list-group-item">
+                  <span>It Change</span> Academy ( 2 Года )
+                </li>
+                <li class="list-group-item">
+                  <span>ProcodeUz</span> ( Работаю )
+                </li>
+              </ul>
+            </div>
+            <div class="about__text-1">
+              <h3>Где учился</h3>
+              <ul class="list-group">
+                <li class="list-group-item">Полетехнический коледж</li>
+                <li class="list-group-item">
+                  Школа програмистов <span>"PROWEB"</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="buttons__about">
+          <div class="about_text-buttons">
+            <a href="/NewREZUME.pdf" download class="btn btn-warning">Скачать PDF <i class="fas fa-download"></i></a>
+            <a href="#!" class="btn btn-success">Есть предложение пожалуста <i class="fas fa-thumbs-up"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =========   about __ END   =========  -->
+
+  <!-- =========   Scills __ START   =========  -->
+
+  <section class="scills">
+    <div class="container">
+      <h2 class="scills__title">Навыки</h2>
+
+      <div class="web">
+        <h3>Веб Програмиравание</h3>
+      </div>
+      <div class="scills__titles">
+        <div class="scills__tit col-lg-6">
+          <h3>БекЭнд</h3>
+          <div class="row flex-column">
+            <div class="col-12">
+              <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-mdb-toggle="list"
+                  href="#list-home" role="tab" aria-controls="list-home">Node Js</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-mdb-toggle="list"
+                  href="#list-profile" role="tab" aria-controls="list-profile">PHP</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list2" data-mdb-toggle="list"
+                  href="#list-baza" role="tab" aria-controls="list-profile">База Данные</a>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                  <div class="node__js-express">
+                    <div class="node_img-text">
+                      <div class="nodeJs__img">
+                        <img src="/images/express.png" alt="" />
+                      </div>
+                      <div class="node__text">
+                        <h4>ExpressJs</h4>
+                        <ul>
+                          <li class="list-group-item">Ejs</li>
+                          <li class="list-group-item">Hbs</li>
+                          <li class="list-group-item">Pug</li>
+                          <li class="list-group-item">Express - (FullScills)</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="node__btn">
+                      <a class="btn btn-success waves-effect waves-light" href="#">Посмотреть портфолио</a>
+                    </div>
+                  </div>
+                  <div class="node__js-socetio">
+                    <div class="node_img-text">
+                      <div class="nodeJs__img">
+                        <img src="/images/socetio.png" alt="" />
+                      </div>
+                      <div class="node__text">
+                        <h4>SOCKET.IO</h4>
+                        <ul>
+                          <li class="list-group-item">Chat</li>
+                          <li class="list-group-item">Realtime Chat</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="node__btn">
+                      <a class="btn btn-success waves-effect waves-light" href="#">Посмотреть портфолио</a>
+                    </div>
+                  </div>
+                  <div class="node__js-admin">
+                    <div class="node_img-text">
+                      <div class="nodeJs__img">
+                        <img src="/images/adminNode.png" alt="" />
+                      </div>
+                      <div class="node__text">
+                        <h4>NodeJs-AdminPanel</h4>
+                        <ul>
+                          <li class="list-group-item">Dashboard</li>
+                          <li class="list-group-item">UserAuth</li>
+                          <li class="list-group-item">AuthSocial</li>
+                          <li class="list-group-item">Pogination(Sistems)</li>
+                          <li class="list-group-item">Category(Sistems)</li>
+                          <li class="list-group-item">SearchList</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="node__btn">
+                      <a class="btn btn-success waves-effect waves-light" href="#">Посмотреть портфолио</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list2">
+                  <div class="php">
+                    <div class="node_img-text">
+                      <div class="php__img">
+                        <img src="/images/PHP-logo.svg" alt="" />
+                      </div>
+                      <div class="php__text">
+                        <h4>PHP</h4>
+                        <ul>
+                          <li class="list-group-item">SOLID</li>
+                          <li class="list-group-item">OOP</li>
+                          <li class="list-group-item">Sessions</li>
+                          <li class="list-group-item">Cookie</li>
+                          <li class="list-group-item">PHP-7 и выше ...</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="node__btn">
+                      <a class="btn btn-success waves-effect waves-light" href="#">Посмотреть портфолио</a>
+                    </div>
+                  </div>
+                  <div class="php-worpress">
+                    <div class="node_img-text">
+                      <div class="php__img">
+                        <img src="/images/Worpress.png" alt="" />
+                      </div>
+                      <div class="php__text">
+                        <h4>WordPress</h4>
+                        <ul>
+                          <li class="list-group-item">WooCommerce</li>
+                          <li class="list-group-item">Easy Digital Downloads</li>
+                          <li class="list-group-item">eShop</li>
+                          <li class="list-group-item">Пасадка готового сайта на WordPress</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="node__btn">
+                      <a class="btn btn-success waves-effect waves-light" href="#">Посмотреть портфолио</a>
+                    </div>
+                  </div>
+                  <div class="php-laravel">
+                    <div class="node_img-text">
+                      <div class="php__img">
+                        <img src="/images/laravel.png" alt="" />
+                      </div>
+                      <div class="php__text">
+                        <h4>Laravel</h4>
+                        <ul>
+                          <li class="list-group-item">Curl(functions)</li>
+                          <li class="list-group-item">CRUD(Sistem Contorller)</li>
+                          <li class="list-group-item">Actions</li>
+                          <li class="list-group-item">ApiSistems(Controller)</li>
+                          <li class="list-group-item">WebSistems(Controller)</li>
+                          <li class="list-group-item">Blade(Full Sistem)</li>
+                          <li class="list-group-item">SOLID</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="node__btn">
+                      <a class="btn btn-success waves-effect waves-light" href="#">Посмотреть портфолио</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="list-baza" role="tabpanel" aria-labelledby="list-profile-list">
+                  <div class="mysql">
+                    <div class="node_img-text">
+                      <div class="mysql__img">
+                        <img src="/images/Mysql.png" alt="" />
+                      </div>
+                      <div class="mysql__text">
+                        <h4>Mysql</h4>
+                        <ul>
+                          <li class="list-group-item">CRUD(Sistem Full)</li>
+                          <li class="list-group-item">Search</li>
+                          <li class="list-group-item">Search(WithById)</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="node__btn">
+                      <a class="btn btn-success waves-effect waves-light" href="#">Посмотреть портфолио</a>
+                    </div>
+                  </div>
+                  <div class="mongo">
+                    <div class="node_img-text">
+                      <div class="mongo__img">
+                        <img src="/images/mongo.png" alt="" />
+                      </div>
+                      <div class="mongo__text">
+                        <h4>MongoDB</h4>
+                        <ul>
+                          <li class="list-group-item">Aggregation</li>
+                          <li class="list-group-item">Mongoose</li>
+                          <li class="list-group-item">Sort</li>
+                          <li class="list-group-item">Indexing</li>
+                          <li class="list-group-item">CRUD(Sistem Full)</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="node__btn">
+                      <a class="btn btn-success waves-effect waves-light" href="#">Посмотреть портфолио</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scills__tit col-lg-6">
+          <h3>Фронтент</h3>
+          <div class="row flex-column">
+            <div class="col-12">
+              <div class="list-group" id="list-tab2" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list-2" data-mdb-toggle="list"
+                  href="#list-home-2" role="tab" aria-controls="list-home">HTML</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list-2" data-mdb-toggle="list"
+                  href="#list-profile-2" role="tab" aria-controls="list-profile">CSS</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list-3" data-mdb-toggle="list"
+                  href="#list-profile-3" role="tab" aria-controls="list-profile">JavaScript</a>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="tab-content" id="nav-tabContent2">
+                <div class="tab-pane fade show active" id="list-home-2" role="tabpanel"
+                  aria-labelledby="list-home-list-2">
+                  <div class="html">
+                    <div class="node_img-text">
+                      <div class="html__img">
+                        <img src="/images/html.png" alt="" />
+                      </div>
+                      <div class="html__text">
+                        <h4>HTML</h4>
+                        <ul>
+                          <li class="list-group-item">HTML5</li>
+                          <li class="list-group-item">Canvas</li>
+                          <li class="list-group-item">SVG</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="node__btn">
+                      <a class="btn btn-success waves-effect waves-light" href="#">Посмотреть портфолио</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="list-profile-2" role="tabpanel" aria-labelledby="list-profile-list-2">
+                  <div class="css">
+                    <div class="node_img-text">
+                      <div class="css__img">
+                        <img src="/images/CSS3.png" alt="" />
+                      </div>
+                      <div class="css__text">
+                        <h4>CSS</h4>
+                        <ul>
+                          <li class="list-group-item">Less</li>
+                          <li class="list-group-item">Sass</li>
+                          <li class="list-group-item">Root:</li>
+                          <li class="list-group-item">Flex-box</li>
+                          <li class="list-group-item">Grid</li>
+                          <li class="list-group-item">Animations</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="node__btn">
+                      <a class="btn btn-success waves-effect waves-light" href="#">Посмотреть портфолио</a>
+                    </div>
+                  </div>
+                  <div class="bootrsap">
+                    <div class="node_img-text">
+                      <div class="bootrsap__img">
+                        <img src="/images/bootsrap.png" alt="" />
+                      </div>
+                      <div class="bootrsap__text">
+                        <h4>Bootsrap</h4>
+                        <ul>
+                          <li class="list-group-item">Grid</li>
+                          <li class="list-group-item">Componets</li>
+                          <li class="list-group-item">MDB-Bootstrap</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="node__btn">
+                      <a class="btn btn-success waves-effect waves-light" href="#">Посмотреть портфолио</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="list-profile-3" role="tabpanel" aria-labelledby="list-profile-list-3">
+                  <div class="javascript">
+                    <div class="node_img-text">
+                      <div class="javascript__img">
+                        <img src="/images/javascript.png" alt="" />
+                      </div>
+                      <div class="javascript__text">
+                        <h4>JavaScript</h4>
+                        <ul>
+                          <li class="list-group-item">ES-6 и выше ...</li>
+                          <li class="list-group-item">Ajax</li>
+                          <li class="list-group-item">OOP</li>
+                          <li class="list-group-item">SOLID</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="node__btn">
+                      <a class="btn btn-success waves-effect waves-light" href="#">Посмотреть портфолио</a>
+                    </div>
+                  </div>
+                  <div class="react">
+                    <div class="node_img-text">
+                      <div class="react__img">
+                        <img src="/images/react.png" alt="" />
+                      </div>
+                      <div class="react__text">
+                        <h4>ReactJs</h4>
+                        <ul>
+                          <li class="list-group-item">ReactDom</li>
+                          <li class="list-group-item">ReactRoute</li>
+                          <li class="list-group-item">Axios</li>
+                          <li class="list-group-item">Redux</li>
+                          <li class="list-group-item">ReactNatie</li>
+                          <li class="list-group-item">Redux-saga</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="node__btn">
+                      <a class="btn btn-success waves-effect waves-light" href="#">Посмотреть портфолио</a>
+                    </div>
+                  </div>
+                  <div class="vue">
+                    <div class="node_img-text">
+                      <div class="vue__img">
+                        <img src="/images/vue.png" alt="" />
+                      </div>
+                      <div class="vue__text">
+                        <h4>VueJs</h4>
+                        <ul>
+                          <li class="list-group-item">Vuetify</li>
+                          <li class="list-group-item">VueRoute</li>
+                          <li class="list-group-item">Axios</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="node__btn">
+                      <a class="btn btn-success waves-effect waves-light" href="#">Посмотреть портфолио</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =========   Scills __ END   =========  -->
+
+  <!-- =========   Portfolio __ START   =========  -->
+  <section class="portfolio">
+    <div class="container">
+      <h2>Портфолио</h2>
+    </div>
+    <div class="portfolio__row">
+      <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+        <div class="portfolio__box">
+          <div class="port__img">
+            <a href="#"> <img src="/images/portfolio.jpg" alt="png"> </a>
+          </div>
+          <div class="port__hover">
+            <ul>
+              <li>PHP</li>
+              <li>SEO</li>
+              <li>AdminPanel</li>
+            </ul>
+            <a href="#" class="btn btn-warning">Посмотреть</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+        <div class="portfolio__box">
+          <div class="port__img">
+            <a href="#"> <img src="/images/portfolio.jpg" alt="png"> </a>
+          </div>
+          <div class="port__hover">
+            <ul>
+              <li>PHP</li>
+              <li>SEO</li>
+              <li>AdminPanel</li>
+            </ul>
+            <a href="#" class="btn btn-warning">Посмотреть</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+        <div class="portfolio__box">
+          <div class="port__img">
+            <a href="#"> <img src="/images/portfolio.jpg" alt="png"> </a>
+          </div>
+          <div class="port__hover">
+            <ul>
+              <li>PHP</li>
+              <li>SEO</li>
+              <li>AdminPanel</li>
+            </ul>
+            <a href="#" class="btn btn-warning">Посмотреть</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+        <div class="portfolio__box">
+          <div class="port__img">
+            <a href="#"> <img src="/images/portfolio.jpg" alt="png"> </a>
+          </div>
+          <div class="port__hover">
+            <ul>
+              <li>PHP</li>
+              <li>SEO</li>
+              <li>AdminPanel</li>
+            </ul>
+            <a href="#" class="btn btn-warning">Посмотреть</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+        <div class="portfolio__box">
+          <div class="port__img">
+            <a href="#"> <img src="/images/portfolio.jpg" alt="png"> </a>
+          </div>
+          <div class="port__hover">
+            <ul>
+              <li>PHP</li>
+              <li>SEO</li>
+              <li>AdminPanel</li>
+            </ul>
+            <a href="#" class="btn btn-warning">Посмотреть</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+        <div class="portfolio__box">
+          <div class="port__img">
+            <a href="#"> <img src="/images/portfolio.jpg" alt="png"> </a>
+          </div>
+          <div class="port__hover">
+            <ul>
+              <li>PHP</li>
+              <li>SEO</li>
+              <li>AdminPanel</li>
+            </ul>
+            <a href="#" class="btn btn-warning">Посмотреть</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+        <div class="portfolio__box">
+          <div class="port__img">
+            <a href="#"> <img src="/images/portfolio.jpg" alt="png"> </a>
+          </div>
+          <div class="port__hover">
+            <ul>
+              <li>PHP</li>
+              <li>SEO</li>
+              <li>AdminPanel</li>
+            </ul>
+            <a href="#" class="btn btn-warning">Посмотреть</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+        <div class="portfolio__box">
+          <div class="port__img">
+            <a href="#"> <img src="/images/portfolio.jpg" alt="png"> </a>
+          </div>
+          <div class="port__hover">
+            <ul>
+              <li>PHP</li>
+              <li>SEO</li>
+              <li>AdminPanel</li>
+            </ul>
+            <a href="#" class="btn btn-warning">Посмотреть</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="port__btn">
+      <a href="#" class="btn btn-dark">Посмотреть ешё портфолио </a>
+    </div>
+  </section>
+  <!-- =========   Scills __ END   =========  -->
+
+  <!-- =========   Contact __ START   =========  -->
+  <footer class="footer">
+      <h2>Контакт</h2>    
+      <div class="contact__row">
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+          <div class="contact__me">
+            <ul class="cosial__contact">
+              <li class="list-group-item"><a href="#"><i class="fab fa-telegram"></i>  <b>@fructik</b></a></li>
+              <li class="list-group-item"><a href="#"><i class="fab fa-instagram"></i>  <b>azizz_88</b></a></li>
+              <li class="list-group-item"><a href="https://www.youtube.com/channel/UCNooSIj6Dyc9KZm3_6Sy8ew/videos"><i class="fab fa-youtube"></i> <b>procodeuz(Aziz Komilov)</b></a></li>
+            </ul>
+            <ul class="contact__full">
+              <li class="list-group-item"><i class="fas fa-phone-volume"></i>+(998) 90 315 21 55 </li>
+              <li class="list-group-item"><i class="fas fa-blender-phone"></i>+(998) 99 111 12 17</li>
+              <li class="list-group-item"><a href="https://goo.gl/maps/SQ5pWUEnSvSAnZTb8"><i class="fas fa-map-marked-alt"></i>2 M. Masson ko'chasi, Тошкент 100209, Узбекистан</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="earth"></div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="map__google">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.347156398754!2d69.22767141564816!3d41.21420461467575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae6144b79e7b87%3A0xc7900e992a2af793!2sSergeli%20Yarmarka%20-%20Bozor%2FBazar%2FRynok!5e0!3m2!1sru!2s!4v1626333786954!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="footer__end">
+          <div class="end">
+            <h3>Приготовлен с любовью <i class="fas fa-heart"></i></h3>
+            <p><b>ProcodeUz</b> - хорошый выбор для вашего бизнеса!</p>
+          </div>
+      </div>
+  </footer>
+  <!-- =========   Scills __ END   =========  -->
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="/libs/js/jquery-3.3.1.min.js"></script>
+
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="/libs/js/popper.min.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="/libs/js/bootstrap.min.js"></script>
+
+  <!-- PARTOCLE -->
+  <script src="/libs/js/particle.min.js"></script>
+
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="/libs/js/mdb.min.js"></script>
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+  <script type="text/javascript">
+    /* WOW.js init */
+    new WOW().init();
+  </script>
+
+  <script src="/libs/js/script.js"></script>
+
+</body>
+
+</html>
